@@ -10,6 +10,15 @@ body {
     overflow: hidden;
 }
 
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+
 .container {
     width: 100px;
     height: 300px;
