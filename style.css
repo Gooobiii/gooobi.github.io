@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 80%;
+}
+
+h1 {
+    color: #333;
+}
+
+#gif {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+button#yesBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button#yesBtn:hover {
+    background-color: #45a049;
+}
+
+button#noBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+button#noBtn:hover {
+    background-color: #d32f2f;
+}
