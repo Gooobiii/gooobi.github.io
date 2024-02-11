@@ -14,23 +14,23 @@ const phrases = [
     "Are you sure?",
     "Are you really sure??",
     "Are you really really sure???",
-    "Think again?",
-    "Don't believe in second chances?",
-    "Why are you being so cold?",
-    "Maybe we can talk about it?",
-    "I am not going to ask again!",
-    "Ok now this is hurting my feelings!",
+    "Sure na sure na sure ka na talaga bam?",
+    "How bout a fifth chance?",
+    "NO PADIN?",
+    "Dali na :(",
+    "AY AYAW TALAGA AH",
+    "Ok now you are hurting my feelings!",
     "You are now just being mean!",
-    "Why are you doing this to me?",
-    "Please give me a chance!",
+    "Why are you doing this to me? :( ",
+    "Give me a chance! say YES",
     "I am begging you to stop!",
     "Come on, don't break my heart!",
-    "You're giving me a workout with all these no's!",
-    "Are you trying to challenge my persistence?",
-    "Is 'no' your favorite word today?",
-    "Let's turn those no's into maybe's and then yes's!",
+    "HAHA ayaw mo talaga mag yes no?",
+    "Kala mo titigil ako? MAG YES KA NA",
+    "Favorite mo talaga yung 'no' NO?",
+    "Let's turn those no's into maybe's and then yes's! o diba cheesy",
     "I promise saying yes will make you smile!",
-    "I'll bring the snacks if you bring the yes!"
+    "I'll bring the snacks if you bring the yes! :* "
 ];
 
 document.getElementById('noBtn').addEventListener('click', function() {
@@ -60,7 +60,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
     // Limit the final size of the Yes button to 1600x800
     if (noButtonClickCount >= 21) {
-        alert("There, you can't say no anymore :P"); // Show alert before hiding No button
+        alert("YAN!, wala ka ng 'no' na choice YOU CAN ONLY SAY YES :P"); // Show alert before hiding No button
         document.getElementById('noBtn').style.display = 'none'; // Hide No button after 21 clicks
     }
 

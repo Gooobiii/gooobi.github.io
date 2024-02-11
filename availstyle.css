@@ -1,16 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
     background-color: pink;
+}
+
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 h1 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1rem;
     color: #333;
 }
 
@@ -32,11 +41,11 @@ h1 {
 }
 
 .date-14 {
-    background-color: red; /* Set background color to red */
-    color: white; /* Set text color to white */
+    background-color: red;
+    color: white;
 }
 
 .date-14:hover {
-    background-color: darkred; /* Darken background color on hover */
-    cursor: pointer; /* Add pointer cursor */
+    background-color: darkred;
+    cursor: pointer;
 }
